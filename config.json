@@ -1,8 +1,16 @@
 {
   "latest_version": "1.0.0",
   "allowed_domains": {
-    "ktfmultan.com": "Khawaja Textile Fabrics",
-    "3conlinestore.com": "3 Clothing"
+    "ktfmultan.com": {
+      "name": "Khawaja Textile Fabrics",
+      "cf_id": "504b2da0c6581eeb8670030dfa880bde.access",
+      "cf_secret": "970f31edaddacd597ca7a43c16166bcebfa2b0de5026cf4d2ddcaf0771eb2476"
+    },
+    "3conlinestore.com": {
+      "name": "3 Clothing",
+      "cf_id": "PASTE_CLOUDFLARE_CLIENT_ID_HERE",
+      "cf_secret": "PASTE_CLOUDFLARE_CLIENT_SECRET_HERE"
+    }
   },
   "update_url": "anasriaz.com/woofly"
 }
